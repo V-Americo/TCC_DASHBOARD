@@ -1,0 +1,78 @@
+.card-container{
+    width: 380px;
+    background-color: #1d1d29;
+    color: white;
+    padding:20px;
+    border-radius: 10px;
+    max-width: 20px auto;
+}
+
+.card-header h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-statistics{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card-number{
+    text-align: center;
+}
+
+.card-number h1{
+    font-size: 36px;
+    margin: 0;
+}
+
+.card-number span{
+    font-size: 14px;
+    color: #bbb;
+}
+
+.card-status{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+/*
+
+.status-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #333; /* Cor do ícone 
+  border-radius: 4px; /* Bordas arredondadas 
+  margin-bottom: 10px; /* Espaço entre o ícone e o texto 
+}
+
+*/
+
+.status-info {
+    background-color: #2E313F;
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.status-info h2{
+    font-size: 24px;
+    margin: 0;
+}
+
+.status-info p{
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 5px;
+}
