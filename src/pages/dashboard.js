@@ -14,7 +14,6 @@ const Dashboard = () => {
         <div className="cards-container">
           <Card />
           <div className='graficos-wrapper'>
-
             <div className="card-grafico">
               <Graficos title="Serviços Completos - Semana" type="line" />
             </div>
@@ -22,7 +21,9 @@ const Dashboard = () => {
               <Graficos title="Serviços Completos - Mês" type="pie" />
             </div>
           </div>
-
+        </div>
+        <div className="card-grafico-barra">
+          <Graficos title="Serviços Completos - Ano" type="bar" />
         </div>
       </div>
     </div>

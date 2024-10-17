@@ -52,3 +52,14 @@
     padding: 20px;
     margin-top: 0px;
 }
+
+.card-grafico-barra {
+    display: flex;
+    flex-direction: column;
+    width: 96.52%; 
+    height: 400px; 
+    background-color: #1D1D29; 
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
