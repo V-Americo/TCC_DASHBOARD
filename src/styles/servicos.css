@@ -1,0 +1,175 @@
+
+.servicos {
+    margin-left: 250px; 
+    padding: 20px;
+    background-color: #12121E;
+    min-height: 100vh; 
+}
+
+
+.servicos h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pendencias-count {
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: #1D1D29;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background-color: #0080FF;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    border-bottom: 1px solid #444;
+}
+
+/* Status Customizado */
+.status {
+    font-weight: bold;
+}
+
+.status.pendente {
+    color: red;
+}
+
+.status.aberto {
+    color: orange;
+}
+
+.status.revisão {
+    color: #FFCC00;
+}
+
+.status.finalizado {
+    color: green;
+}
+
+/* Botão de Ação */
+.acao-button {
+    background-color: #1D1D29;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.acao-button:hover {
+    background-color: #444;
+}
+
+.card-detalhes {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1D1D29;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+  
+  .card-detalhes h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card-detalhes p {
+    margin: 5px 0;
+  }
+  
+  .fotos {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .fotos img {
+    width: 2250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .acao-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #afafaf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .acao-button:hover {
+    background-color: #005BB5;
+  }
+  
+  .expanded-row {
+    background-color: #1D1D29;
+}
+
+.details {
+    padding: 20px;
+    color: #fff;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.fotos {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.fotos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.acao-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0080FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.acao-button:hover {
+    background-color: #005BB5;
+}

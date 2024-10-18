@@ -22,7 +22,7 @@ const GraficoCard = ({ title, type }) => {
       {
         label: 'Serviços Completos',
         data: [65, 59, 80, 81, 56, 55, 40],
-        borderColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(0, 128, 255, 1)',
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
         borderWidth: 2,
       },
@@ -37,12 +37,12 @@ const GraficoCard = ({ title, type }) => {
         label: 'Status dos Serviços',
         data: [12, 19, 3],
         backgroundColor: [
-          'rgba(75, 192, 192, 0.6)',
+          'rgba(0, 128, 255, 0.6)',
           'rgba(255, 206, 86, 0.6)',
           'rgba(255, 99, 132, 0.6)',
         ],
         borderColor: [
-          'rgba(75, 192, 192, 1)',
+          'rgba(0, 128, 255, 1)',
           'rgba(255, 206, 86, 1)',
           'rgba(255, 99, 132, 1)',
         ],
@@ -58,10 +58,10 @@ const GraficoCard = ({ title, type }) => {
         label: 'Pendentes',
         data: [65, 56, 78, 62, 64, 71, 69, 66, 77, 80, 65, 52],
         backgroundColor: [
-          'rgba(255, 99, 132, 0.6)'
+          'rgba(255, 255, 255, 0.6)'
         ],
         borderColor: [
-          'rgba(255, 99, 132, 1)',
+          'rgba(255, 255, 255, 1)',
         ],
         borderWidth: 1,
       },
@@ -69,10 +69,10 @@ const GraficoCard = ({ title, type }) => {
         label: 'Finalizados',
         data: [44, 35, 56, 32, 44, 54, 52, 46, 63, 68, 47, 41],
         backgroundColor: [
-          'rgba(75, 192, 192, 0.6)',
+          'rgba(0, 128, 255, 0.6)',
         ],
         borderColor: [
-          'rgba(75, 192, 192, 1)',
+          'rgba(0, 128, 255, 1)',
         ],
         borderWidth: 1,
       },

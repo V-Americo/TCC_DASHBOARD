@@ -4,10 +4,12 @@
     height: 100vh; 
 }
 
+/*
 .sidebar {
     width: 250px;
     background-color: #1D1D29;
 }
+*/
 
 .dashboard-content {
     flex: 1;
@@ -56,8 +58,8 @@
 .card-grafico-barra {
     display: flex;
     flex-direction: column;
-    width: 96.52%; 
-    height: 400px; 
+    width: 1120px; 
+    height: 200px; 
     background-color: #1D1D29; 
     border-radius: 12px;
     padding: 20px;

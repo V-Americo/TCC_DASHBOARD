@@ -1,6 +1,5 @@
-// src/pages/Dashboard.js
+
 import React from 'react';
-import Sidebar from '../components/sidebar';
 import Card from '../components/card';
 import Graficos from '../components/graficos';
 import '../styles/dashboard.css';
@@ -8,7 +7,6 @@ import '../styles/dashboard.css';
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <Sidebar />
       <div className="dashboard-content">
         <h1>Análises De Solicitações</h1>
         <div className="cards-container">
