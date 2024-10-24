@@ -35,7 +35,7 @@ const ServicosTodos = () => {
       </div>
 
       <div className="tabs">
-        {["Todos", "Em Aberto", "Revisão", "Finalizado"].map((tab) => (
+        {["Todos", "Pendente", "Em Aberto", "Revisão", "Finalizado"].map((tab) => (
           <button
             key={tab}
             className={`tab-button ${activeTab === tab ? "active" : ""}`}
@@ -48,7 +48,7 @@ const ServicosTodos = () => {
 
       <table>
         <thead>
-          <tr>
+          <tr className="menu-table">
             <th>Protocolo</th>
             <th>Requerente</th>
             <th>Endereço</th>
@@ -83,6 +83,7 @@ const ServicosTodos = () => {
                         <p><strong>Endereço:</strong> {currentItem.endereco}</p>
                         <p><strong>Complemento:</strong> {currentItem.complemento}</p>
                         <p><strong>Ponto de Referência:</strong> {currentItem.referencia}</p>
+                        <p><strong>Data:</strong> {currentItem.data}</p>
                     </div>
                     <div className="fotos">
                         {currentItem.fotos.map((foto, index) => (
