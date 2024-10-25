@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import '../styles/sidebar.css';
-import logo from '../assets/logo-dashboard.png';
-import user from '../assets/user.png';
+import logo from '../img/logo-dashboard.png';
+import user from '../img/user.png';
 
 const Sidebar = () => {
   return (

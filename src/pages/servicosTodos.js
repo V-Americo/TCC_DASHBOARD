@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import "../styles/servicos.css";
-import Data from "../data/servicosData";
+import "../assets/styles/servicos.css";
+import Data from "../assets/data/servicosData";
 
 Modal.setAppElement("#root");
 

@@ -1,4 +1,4 @@
-import mockup from '../assets/mockup.jpeg'
+import mockup from '../img/mockup.jpeg'
 
 
 const Data = [

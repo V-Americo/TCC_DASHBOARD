@@ -1,8 +1,8 @@
 
 import React from 'react';
-import Card from '../components/card';
-import Graficos from '../components/graficos';
-import '../styles/dashboard.css';
+import Card from '../assets/components/card';
+import Graficos from '../assets/components/graficos';
+import '../assets/styles/dashboard.css';
 
 const Dashboard = () => {
   return (
