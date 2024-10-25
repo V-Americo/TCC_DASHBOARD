@@ -1,0 +1,152 @@
+/* Estilos gerais para o container */
+.operador-container {
+    padding: 20px;
+    background-color: #12121E;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+  
+.operador-header {
+    margin-bottom: 50px;
+    display: flex; 
+    align-items: center;
+    gap: 15px; 
+    border-radius: 12px;
+}
+
+.operador-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+}
+
+.operador-header-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.operador-nome {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 4px; /* Reduz o espaçamento entre o nome e o cargo */
+}
+
+.operador-cargo {
+    font-size: 12px;
+    color: #c8c8c8;
+    margin-top: 0; /* Remove o espaçamento adicional */
+}
+
+
+.operador-requisicoes {
+    margin-top: 20px;
+}
+  
+.requisicao-card {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    background-color: #1D1D29;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 100%; /* Garante que o card ocupe toda a largura disponível */
+    max-width: 300px; /* Define um limite para o tamanho do card */
+}
+
+.requisicao-info {
+    margin-left: 10%;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.requisicao-info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.requisicao-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #c8c8c8;
+}
+
+.requisicao-img {
+    width: 80%; 
+    max-width: 300px; 
+    height: auto;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    border-radius: 12px; 
+    margin-top: 10px;
+    object-fit: cover;
+    border: 2px solid #ffffff89;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.acao-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+
+  
+  /* Tabs para navegação */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+  
+.tab {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: #c8c8c8;
+    border-radius: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+  
+.tab.active {
+    color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+    .operador-container {
+      padding: 10px;
+}
+  
+    .requisicao-card {
+      flex-direction: column;
+    }
+  
+    .requisicao-imagem {
+      width: auto;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    .acao-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+}
+  
