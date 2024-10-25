@@ -20,13 +20,13 @@ const Sidebar = () => {
         </Link>
       </div>
 
-      <div className="user-profile">
+      <Link to='/user' className="user-profile">
         <img src={user} className="profile-pic" alt="user profile" />
         <div className="user-info">
           <h3>Victor Américo</h3>
           <p>CEO - ComunicaBelem</p>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };
