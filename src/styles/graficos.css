@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 grafico-card{
     width: 28px;
     height: 220px;
@@ -33,4 +34,28 @@ grafico-card{
 .grafico.pie{
     border: 2px solid #0080FF;
     border-radius: 50%;
+=======
+.grafico-card {
+    width: 100%; /* Aumenta para melhor espaço */
+    height: 200px; /* Ajusta a altura */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribuição vertical */
+    text-align: center;
+
+}
+
+.grafico-card h3 {
+    font-size: 18px;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+
+.bar-chart h3 {
+    margin-top: 16px;
+>>>>>>> 0d28b88 (Alteração de bugs nos gráficos)
 }
