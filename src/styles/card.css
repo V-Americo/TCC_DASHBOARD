@@ -15,10 +15,7 @@
 }
 
 .card-content{
-<<<<<<< HEAD
-=======
     text-align: center;
->>>>>>> 0d28b88 (Alteração de bugs nos gráficos)
     display: flex;
     flex-direction: column;
     align-items: center;

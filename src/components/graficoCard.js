@@ -81,11 +81,8 @@ const GraficoCard = ({ title, type }) => {
 
 
   return (
-<<<<<<< HEAD
-    <div className="grafico-card">
-=======
+
     <div className={`grafico-card ${type}-chart`}>
->>>>>>> 0d28b88 (Alteração de bugs nos gráficos)
       <h3>{title}</h3>
 
       <div style={{ width: '100%', height: '100%' }}>
@@ -96,10 +93,6 @@ const GraficoCard = ({ title, type }) => {
 
       </div>
     </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 0d28b88 (Alteração de bugs nos gráficos)
   );
 };
 

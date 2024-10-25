@@ -59,11 +59,7 @@
     display: flex;
     flex-direction: column;
     width: 1120px; 
-<<<<<<< HEAD
-    height: 200px; 
-=======
     height: 250px; 
->>>>>>> 0d28b88 (Alteração de bugs nos gráficos)
     background-color: #1D1D29; 
     border-radius: 12px;
     padding: 20px;
