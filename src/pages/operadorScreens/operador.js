@@ -1,7 +1,8 @@
 import React from "react";
-import Data from '../assets/data/servicosData'
-import '../assets/styles/operador.css'
-import operadorAvatar from '../assets/img/user.png'
+import Data from '../../assets/data/servicosData'
+import '../../assets/styles/operador.css'
+import operadorAvatar from '../../assets/img/user.png'
+import { Link } from "react-router-dom";
 
 const Operador = () =>{
     return(
@@ -27,14 +28,16 @@ const Operador = () =>{
                 <div className="requisicoes-lista">
                     {Data.filter(item => item.status === 'Pendente').map((item, index) => (
                         <div key={index} className="requisicao-card"> 
-                            <img src={item.fotos[0]} alt="Foto do serviço" className="requisicao-img" />
+                            <img src={item.fotos[0]} alt="Foto do servico" className="requisicao-img" />
                             <div className="requisicao-info">
 
                                 <p><strong>Endereço:</strong> {item.endereco}</p>
                                 <p><strong>Data:</strong> {item.data}</p>
 
                             </div>
-                            <button className="acao-button">▼</button>
+                            <Link to={'/operadorServico'}>
+                                <button className="acao-button">Visualizar Denúncia</button>
+                            </Link>
                         </div>
                     ))}
                 </div>
