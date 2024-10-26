@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import "../assets/styles/servicos.css";
-import Data from "../assets/data/servicosData"
+import Data from "../assets/data/servicosData";
 
 
 

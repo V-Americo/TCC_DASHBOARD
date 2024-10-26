@@ -6,12 +6,12 @@ import ServicosTodos from './pages/servicosTodos';
 import User from './pages/user';
 import Operador from './pages/operadorScreens/operador';
 import OperadorServico from './pages/operadorScreens/operadorServico'
-
+import ServicoAceito from './pages/operadorScreens/servicoAceito';
 function Layout() {
   const location = useLocation();
 
   // Define em quais rotas a Sidebar deve aparecer
-  const showSidebar = !['/operador','/operadorServico'].includes(location.pathname);
+  const showSidebar = !['/operador','/operadorServico','/servicoAceito'].includes(location.pathname);
 
 
   return (
@@ -24,6 +24,7 @@ function Layout() {
           <Route path="/user" element={<User />} />
           <Route path="/operador" element={<Operador />} />
           <Route path="/operadorServico" element={<OperadorServico />} />
+          <Route path="/servicoAceito" element={<ServicoAceito />} />
         </Routes>
       </div>
     </div>

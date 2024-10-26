@@ -5,7 +5,7 @@ const Data = [
     {
       id: 102,
       requerente: "Victor Américo",
-      endereco: "Avenida Governador José Malcher, 1001",
+      endereco: "Travessa Mauriti, 1006",
       data: "22/09/2024",
       status: "Pendente",
       complemento: "Entre a rua tal e a rua 2",

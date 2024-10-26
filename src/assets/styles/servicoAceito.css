@@ -1,0 +1,130 @@
+.srv-aceito-container {
+    background-color: #12121E;
+    color: #fff;
+    font-family: inherit;
+}
+
+/* servicoAceito.css 
+.srv-aceito-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #12121E;
+    padding: 20px;
+    border-radius: 12px;
+    min-height: 400px;
+}
+*/
+
+.srv-aceito-header{
+    color:#000000;
+    background-color: #fff;
+    width: 330px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    align-items: start;
+    display: column;
+
+    h2{
+        font-size: 20px;
+        margin-left: 7px;
+        font-weight: bold;
+
+        span{
+            color: red;
+        }
+    }
+
+    p{
+        font-size: 13px;
+        margin-left: 7px;
+        margin-top: -10px;
+        
+        span{
+            font-weight: bold;
+        }
+    }
+
+    
+}
+
+
+.srv-aceito-container h3 {
+    color: white;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+
+.mapa-info{
+    margin-top: -20px;
+    background-color: #12121E;
+    padding: 20px;
+    border-radius: 12px;
+    min-height: 400px;
+}
+
+.srv-aceito-info{
+    h2{
+        margin-top:-23%;
+    };
+
+    p{
+        margin-top: -5px;
+    }
+} 
+
+.srv-aceito-devolucao h2{
+    margin-top: 40px;
+    font-weight: bold;
+
+    span{
+        color: rgb(5, 199, 5);
+    }
+}
+
+
+
+.srv-aceito-devolucao input{
+    width: 30%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+
+
+.srv-aceito-devolucao input::placeholder{
+    color: #ffffff99;
+    font-size: 12px;
+    text-align: center;
+}
+
+.acao-button{
+    background-color: #034E8F;
+    margin-top: 30px;
+
+}
+
+@media (max-width: 1000px) {
+    .operador-container {
+      padding: 10px;
+}
+  
+    .requisicao-card {
+      flex-direction: column;
+    }
+  
+    .requisicao-imagem {
+      width: auto;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    .acao-button {
+      width: 100%;
+      border: 0.5px solid #ffffff89;
+    }
+}

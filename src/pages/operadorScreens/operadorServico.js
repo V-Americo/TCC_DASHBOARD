@@ -29,7 +29,7 @@ const OperadorServico = () =>{
                             <p>{item.descricao}</p>
                         </div>
                     
-                        <Link>
+                        <Link to={'/servicoAceito'}>
 
                             <button className="acao-button">
                                 Aceitar Serviço
