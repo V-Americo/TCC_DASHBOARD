@@ -12,7 +12,7 @@ const Sidebar = () => {
       </div>
 
       <div className="menu-items">
-        <Link to="/" className="menu-item">
+        <Link to="/dashboard" className="menu-item">
           Dashboard
         </Link>
         <Link to="/servicos" className="menu-item">
@@ -20,9 +20,9 @@ const Sidebar = () => {
         </Link>
       </div>
 
-      <Link to='/user' className="user-profile">
-        <img src={user} className="profile-pic" alt="user profile" />
-        <div className="user-info">
+      <Link to='/user' className="sidebar-user-profile">
+        <img src={user} className="sidebar-profile-pic" alt="user profile" />
+        <div className="sidebar-user-info">
           <h3>Victor Américo</h3>
           <p>CEO - ComunicaBelem</p>
         </div>

@@ -19,10 +19,10 @@ const Operador = () =>{
 
             <section className="operador-requisicoes">
                 <h2>Requisições Pendentes</h2>
-                <div className="tabs">
-                    <button className="tab active">Pendentes</button>
-                    <button className="tab">Abertos</button>
-                    <button className="tab">Finalizados</button>
+                <div className="op-tabs">
+                    <button className="op-tab active">Pendentes</button>
+                    <button className="op-tab">Abertos</button>
+                    <button className="op-tab">Finalizados</button>
                 </div>
 
                 <div className="requisicoes-lista">

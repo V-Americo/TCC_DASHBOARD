@@ -109,14 +109,14 @@
 
   
   /* Tabs para navegação */
-.tabs {
+.op-tabs {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;
 }
   
-.tab {
+.op-tab {
     flex-grow: 1;
     padding: 10px;
     text-align: center;
@@ -127,7 +127,7 @@
     cursor: pointer;
 }
   
-.tab.active {
+.op-tab.active {
     color: #ffffff;
 }
 

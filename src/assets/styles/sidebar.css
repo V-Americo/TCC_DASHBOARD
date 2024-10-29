@@ -43,7 +43,7 @@
     padding: 3px 20px;
 }
 
-.user-profile{
+.sidebar-user-profile{
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@
     padding: 20px;
 }
 
-.profile-pic{
+.sidebar-profile-pic{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -63,12 +63,12 @@
     border: 2px solid #ffffff
 }
 
-.user-info h3{
+.sidebar-user-info h3{
     margin: 0;
     font-size: 16px;
 }
 
-.user-info p{
+.sidebar-user-info p{
     margin: 0;
     font-size: 12px;
     color: #bbbbbbbb
