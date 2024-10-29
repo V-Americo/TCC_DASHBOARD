@@ -7,65 +7,69 @@ O Projeto ComunicaBelém se divide em duas frentes estratégicas: uma aplicaçã
 
 ## Telas do Projeto
 
-### 1. **Dashboard**
-A tela de **Dashboard** oferece uma visão geral das métricas e indicadores principais do sistema.
-
-![Dashboard](./src/assets/img/imagensProduto/DashBoard.png)
-
----
-
-### 2. **Login**
+### 1. **Login**
 A tela de **Login** permite que o usuário acesse o sistema com segurança.
 
 ![Login](./src/assets/img/imagensProduto/Login.png)
 
 ---
 
-### 3. **Registro**
+### 2. **Registro**
 A tela de **Registro** é usada para novos usuários se cadastrarem na plataforma.
 
 ![Registro](./src/assets/img/imagensProduto/Registro.png)
 
 ---
 
-### 4. **Operador**
-A tela de **Operador** foi projetada para o uso específico de operadores do sistema.
+### 3. **Dashboard**
+A tela de **Dashboard** oferece uma visão geral das métricas e indicadores principais do sistema.
 
-![Operador](./src/assets/img/imagensProduto/Operador.png)
-
----
-
-### 5. **Serviços Pendentes**
-Duas telas mostram os detalhes dos serviços pendentes e o progresso das tarefas.
-
-- **Serviço Pendente - Parte 1**  
-  ![Serviço Pendente 1](./src/assets/img/imagensProduto/ServicoPendente1.png)
-
-- **Serviço Pendente - Parte 2**  
-  ![Serviço Pendente 2](./src/assets/img/imagensProduto/ServicoPendente2.png)
+![Dashboard](./src/assets/img/imagensProduto/DashBoard.png)
 
 ---
 
-### 6. **Serviços Todos**
+### 4. **Serviços Todos**
 Exibe todos os serviços listados no sistema.
 
 ![Serviços Todos](./src/assets/img/imagensProduto/ServicosTodos.png)
 
 ---
 
-### 7. **Enviar para Revisão**
+### 5. **Usuário**
+A tela de **Usuário** contém informações sobre os dados do usuário e permite ajustes no perfil.
+
+![Usuário](./src/assets/img/imagensProduto/User.png)
+
+---
+
+
+### 6. **Operador**
+A tela de **Operador** foi projetada para o uso específico de operadores do sistema.
+
+![Operador](./src/assets/img/imagensProduto/Operador.png)
+
+---
+
+### 7. **Serviços Pendentes**
+Duas telas mostram os detalhes dos serviços pendentes e o progresso das tarefas.
+
+- **Serviço Pendente - Parte 1**  
+  ![Serviço Pendente 1](./src/assets/img/imagensProduto/ServicoPendente1.png)
+
+
+
+- **Serviço Pendente - Parte 2**  
+  ![Serviço Pendente 2](./src/assets/img/imagensProduto/ServicoPendente2.png)
+
+---
+
+### 8. **Enviar para Revisão**
 Tela utilizada para enviar uma tarefa ou serviço para revisão interna.
 
 ![Enviar para Revisão](./src/assets/img/imagensProduto/EnviarParaRevisao.png)
 
 ---
 
-### 8. **Usuário**
-A tela de **Usuário** contém informações sobre os dados do usuário e permite ajustes no perfil.
-
-![Usuário](./src/assets/img/imagensProduto/User.png)
-
----
 
 ## Tecnologias utilizadas
 
