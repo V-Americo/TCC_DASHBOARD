@@ -14,7 +14,7 @@ const ServicoAceito = () =>{
     <div className="srv-aceito-container">
         <div className="srv-aceito-header">
             <h2>Serviço <span>Pendente</span></h2>
-            <p> <span>Requerente:</span> Nome de quem mandou o serviço</p>
+            <p> <span>Requerente:</span> Victor Américo</p>
         </div>
         <h3>Localização do Serviço:</h3>
         <div className="mapa-info">

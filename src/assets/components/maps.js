@@ -11,7 +11,7 @@ const containerStyle = {
 const Mapa = ({ endereco }) => {
   const [coordinates, setCoordinates] = useState(null);
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "{KEY DA API}", // Substitua pela sua API Key
+    googleMapsApiKey: "AIzaSyCfCJiVu__WNPcsTKfh8xj73SDwdwMYY9c", // Substitua pela sua API Key
   });
 
   // Função para buscar coordenadas a partir do endereço
@@ -20,7 +20,7 @@ const Mapa = ({ endereco }) => {
       const response = await fetch(
         `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(
           address
-        )}&key={KEY DA API}}`
+        )}&key={AIzaSyCfCJiVu__WNPcsTKfh8xj73SDwdwMYY9c}}`
       );
       const data = await response.json();
       if (data.results.length > 0) {
